@@ -1,0 +1,31 @@
+.initial_container {
+    height: 88%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.intro_container {
+    border-radius: 2vw;
+    height: 25vw;
+    padding: 10px;
+    border-radius: 2vw;
+    margin: 2vw 2vw 1vw 2vw;
+    background-color: #F4F4F4;
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    h3 {
+        font-size: 1.6vw;
+        align-self: center;
+        margin-bottom: 4vw;
+    }
+
+    p {
+        text-align: justify;
+        align-self: center;
+        margin: 0vw 3vw;
+    }
+}
+

@@ -1,0 +1,68 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -16vw;
+  width: 16vw;
+  height: 100%;
+  transition: left 0.3s ease-in-out;
+  background-color: #3C74BD;
+  z-index: 1;
+}
+
+.sidebar.open {
+  left: 0;
+  height: 100%;
+}
+
+.sidebar_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100% - 3.6vw);
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+
+    li {
+      font-size: 1.3vw;
+      
+      a {
+        text-decoration: none;
+        color: #000000;
+        display: block;
+        padding: 0.6vw 1.4vw;
+        transition: 0.3s;
+
+        &:hover {
+          background-color: #3A5A7D;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.logout_container {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.logout_button {
+  padding: 1vw 1vw;
+  color: #E7E6E6;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1vw;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.logout_icon {
+  height: 1.5vw;
+  width: auto;
+  margin-right: 0.5vw;
+}

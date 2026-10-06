@@ -1,0 +1,37 @@
+.black-text {
+    color: black;
+}
+
+.blue-text {
+    color: #3C74BD;
+}
+
+.main_logo_container {
+    top: 17vh;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+    .logo_img {
+        height: 15vh;
+        width: auto;
+        margin-bottom: 0.5vh;
+    }
+
+    h1 {
+        position: relative;
+        font-size: 19vh;
+    }
+
+    .page_subtitle {
+        margin-top: 22vh;
+        
+        h2 {
+            font-weight: bold;
+            font-size: 4vh;
+        }
+    }
+}

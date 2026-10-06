@@ -1,0 +1,84 @@
+.message_list_container {
+  width: calc(100% - 2vw);
+  height: 81%;
+  margin: 1vw 0vw 1vw 2vw;
+  overflow-y: auto;
+  font-family: 'Segoe UI';
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.message_container {
+  width: calc(100% - 2vw);
+  display: flex;
+  align-items: top;
+}
+
+.message_container_row {
+  width: calc(100% - 2vw);
+  display: flex;
+  align-items: top;
+}
+
+.message_logo {
+  width: 2vw;
+  height: 2vw;
+  margin: 1.4vw 0vw 1vw 0vw;
+}
+
+.user_message, .eulalia_message {
+  width: calc(100% - 2vw);
+
+  text-align: justify;
+  margin: 0vw 0vw 0vw 1vw;
+  font-size: 1.3vw;
+  word-break: break-word;
+}
+
+.eulalia_message {
+  margin-bottom: 1.5vw;
+}
+
+.message_button {
+  display: block;
+  margin: 0.5vw auto;
+  border: none;
+  background: none;
+  color: grey;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+.message_button:hover {
+  color: black;
+}
+
+.code-snippet {
+  background-color: #f5f5f5;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 1vw;
+  /* margin: 1vw 0; */
+  word-break: break-word;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking {
+  animation: blink 2s infinite;
+  font-family: 'Segoe UI';
+  font-size: 1.1vw;
+  margin-left: 3vw;
+}

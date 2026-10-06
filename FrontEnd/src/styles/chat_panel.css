@@ -1,0 +1,44 @@
+.panel_bar {
+    display: flex;
+    align-items: center;
+    margin: 0 2vw 1vw 2vw;
+    justify-content: space-between;
+    border-radius: 2vw;
+    background-color: #B2B1B1;
+
+    .prompt_bar {
+        height: 3vw;
+        width: 55vw;
+        padding-left: 2vw;
+        border: 0;
+        border-radius: 2vw;
+        background-color: transparent;
+        resize: none;
+        
+        font-family: 'Segoe UI';
+        font-size: 1.1vw;
+        line-height: 2.8vw;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.submit_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.8vw;
+    width: 2.8vw;
+    margin-right: 0.5vw;
+    border: 0;
+    border-radius: 50%;
+    background-color: #3C74BD;
+    font-size: 1.3vw;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #4e7599;
+    }
+}

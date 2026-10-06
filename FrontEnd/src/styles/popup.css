@@ -1,0 +1,52 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup {
+    height: 10vh;
+    width: 18vw;
+    padding: 4vh;
+    position: absolute;
+    border-radius: 2vw;
+    text-align: center;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.popup-message {
+    margin-bottom: 1vw;
+    font-size: 1.3vw;
+    font-family: 'Segoe UI';
+    color: #333;
+}
+
+.popup-close-button {
+    font-family: 'Segoe UI';
+    padding: 1.5vh;
+    border-radius: 2vw;
+    margin-top: 0.7vw;
+    cursor: pointer;
+    font-size: 1vw;
+    width: 30%;
+    background-color: #d8d8d8;
+    border: none;
+    color: #000;
+    transition: transform 0.4s ease, background-color 0.3s ease;
+}
+
+.popup-close-button:hover {
+    transform: scale(1.1);
+}

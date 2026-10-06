@@ -1,0 +1,31 @@
+.header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin-top: 0.5vw;
+    justify-content: space-between;
+    z-index: 10; 
+}
+
+.nav_list_icon {
+    height: 3vw;
+    margin-left: 0.5vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav_list_icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
+.nav_list_icon:not(:hover) {
+    transform: scale(1); 
+    transition: transform 0.4s ease;
+}
+
+.nav_bcn {
+    height: 3vw;
+    padding-top: 0.5vh;
+    margin-right: 0.5vw;
+}
